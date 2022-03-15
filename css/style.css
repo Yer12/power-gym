@@ -161,6 +161,15 @@ a:hover, a:active, a:focus {
   text-transform: uppercase;
   padding: 2px 6px;
 }
+.result .nav-link.active {
+  background: #f13a11;
+}
+.result {
+  cursor: pointer;
+}
+.tabPanel {
+  display: none;
+}
 .nav-item .nav-link.active, .nav-item .nav-link:hover {
   color: #f13a11;
 }
